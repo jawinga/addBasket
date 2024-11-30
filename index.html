@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Añadir al carro</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand" href="#"> YourBrand </a>
+        <!-- Toggler for Small Screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <!-- Dropdown Menu -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <!-- Search Form -->
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row p-5">
+      <!-- Left Column (Cards) -->
+      <div class="col-md-8 col-sm-12">
+        <div class="row">
+          <div class="col-md-4 col-sm-6" id="card1">
+            <div class="card" style="width: 100%">
+              <img src="images/1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Nécessaire <i>29,99€</i></h5>
+                <p class="card-text">
+                  The Deodorant. Eucalyptus. 50ml / 1.7 fi oz
+                </p>
+                <button type="button" class="btn btn-outline-primary addBtn">
+                  Add to basket
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6" id="card2">
+            <div class="card" style="width: 100%">
+              <img src="images/2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Erbology Pack <i>59,99€</i></h5>
+                <p class="card-text">
+                  Contains Hemp Seed, Organic Ceremonial UJI Matcha
+                </p>
+                <button type="button" class="btn btn-outline-primary addBtn">
+                  Add to basket
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 3" id="card3">
+            <div class="card" style="width: 100%">
+              <img src="images/3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">The Natural Oil <i>10,99€</i></h5>
+                <p class="card-text">
+                  Take care of your skin with this plant-based oil for HIM and
+                  HER
+                </p>
+                <button type="button" class="btn btn-outline-primary addBtn">
+                  Add to basket
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 4" id="card4">
+            <div class="card" style="width: 100%">
+              <img src="images/4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Curology X3 <i>50,99€</i></h5>
+                <p class="card-text">
+                  Curology pack contains three different types of natural
+                  creams.
+                </p>
+                <button type="button" class="btn btn-outline-primary addBtn">
+                  Add to basket
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 5" id="card5">
+            <div class="card" style="width: 100%">
+              <img src="images/5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">The Daily Grind <i>20,00€</i></h5>
+                <p class="card-text">
+                  Our Outlaw Version will make your beard smooth and smell
+                  incredibly well
+                </p>
+                <button type="button" class="btn btn-outline-primary addBtn">
+                  Add to basket
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 6" id="card6">
+            <div class="card" style="width: 100%">
+              <img src="images/6.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Premium CBD Oil <i>23,99€</i></h5>
+                <p class="card-text">
+                  With 80% purity. Take advantage of all the benefits of CBD
+                </p>
+                <button type="button" class="btn btn-outline-primary addBtn">
+                  Add to basket
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-md-4 col-sm-12">
+        <!-- Add content here if needed -->
+
+        <h1>Your basket:</h1>
+
+        <div id="carrito">
+          <div id="tarjetasCarrito"></div>
+        </div>
+
+        <h3 class="text-body-secondary" id="emptyBasket">
+          Your basket is empty...
+        </h3>
+
+        <button
+          hidden
+          type="button"
+          class="btn btn-primary btn-lg"
+          id="purchaseBtn"
+        >
+          Buy
+        </button>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
